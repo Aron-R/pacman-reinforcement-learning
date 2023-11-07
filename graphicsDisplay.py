@@ -1,17 +1,3 @@
-# graphicsDisplay.py
-# ------------------
-# Licensing Information:  You are free to use or extend these projects for
-# educational purposes provided that (1) you do not distribute or publish
-# solutions, (2) you retain this notice, and (3) you provide clear
-# attribution to UC Berkeley, including a link to http://ai.berkeley.edu.
-#
-# Attribution Information: The Pacman AI projects were developed at UC Berkeley.
-# The core projects and autograders were primarily created by John DeNero
-# (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
-# Student side autograding was added by Brad Miller, Nick Hay, and
-# Pieter Abbeel (pabbeel@cs.berkeley.edu).
-
-
 from graphicsUtils import *
 import math
 import time
@@ -20,9 +6,6 @@ from game import Directions
 ###########################
 #  GRAPHICS DISPLAY CODE  #
 ###########################
-
-# Most code by Dan Klein and John Denero written or rewritten for cs188, UC Berkeley.
-# Some code from a Pacman implementation by LiveWires, and used / modified with permission.
 
 DEFAULT_GRID_SIZE = 30.0
 INFO_PANE_HEIGHT = 35
@@ -272,7 +255,7 @@ class PacmanGraphics:
         begin_graphics(screen_width,
                        screen_height,
                        BACKGROUND_COLOR,
-                       "CS188 Pacman")
+                       "CSE4063: Reinforcement Learning DEMO")
 
     def drawPacman(self, pacman, index):
         position = self.getPosition(pacman)
